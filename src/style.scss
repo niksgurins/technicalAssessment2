@@ -1,0 +1,42 @@
+@import "../node_modules/vanilla-framework/scss/vanilla";
+@include vanilla;
+
+body {
+    margin: 20px;
+}
+
+.p-card.col-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-top: solid 3px rgba(128, 0, 128, 0.6);
+    box-shadow: 0 0 10px lightgray;
+    border-radius: 5px;
+
+    h7 {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        height: 35px;
+    }
+
+    hr {
+        border-top: dotted 1px;
+        color:rgba(128, 0, 128, 0.2);
+    }
+
+    img {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    h3 {
+        font-weight: 300;
+        height: 135px;
+        overflow: hidden;
+    }
+
+    p:last-of-type {
+        height: 35px;
+    }
+}

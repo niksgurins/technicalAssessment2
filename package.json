@@ -1,0 +1,15 @@
+{
+  "name": "canonicalta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "node-sass --include-path node_modules src --output dist"
+  },
+  "author": "Niks Gurins",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^6.0.0",
+    "vanilla-framework": "^2.31.0"
+  }
+}
